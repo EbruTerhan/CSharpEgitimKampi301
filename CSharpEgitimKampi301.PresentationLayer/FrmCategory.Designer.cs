@@ -70,6 +70,7 @@
             this.btnList.TabIndex = 4;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // label2
             // 
@@ -141,6 +142,7 @@
             this.btnById.TabIndex = 13;
             this.btnById.Text = "ID\'ye Göre Getir";
             this.btnById.UseVisualStyleBackColor = true;
+            this.btnById.Click += new System.EventHandler(this.btnById_Click);
             // 
             // btnUpdate
             // 
@@ -151,6 +153,7 @@
             this.btnUpdate.TabIndex = 14;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -161,6 +164,7 @@
             this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -171,6 +175,7 @@
             this.btnAdd.TabIndex = 16;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // FrmCategory
             // 
