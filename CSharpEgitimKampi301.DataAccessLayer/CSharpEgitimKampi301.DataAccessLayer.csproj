@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202511131151458_mig1.Designer.cs">
       <DependentUpon>202511131151458_mig1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202511241508258_UpdateKampContext.cs" />
+    <Compile Include="Migrations\202511241508258_UpdateKampContext.Designer.cs">
+      <DependentUpon>202511241508258_UpdateKampContext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
@@ -85,6 +89,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202511131151458_mig1.resx">
       <DependentUpon>202511131151458_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202511241508258_UpdateKampContext.resx">
+      <DependentUpon>202511241508258_UpdateKampContext.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
